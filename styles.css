@@ -40,7 +40,7 @@ html, body {
 #upper-main {
     display: flex;
     background-color: #1f2937;
-    height: 500px;
+    height: 600px;
     justify-content: center;
     gap: 100px;
     align-items: center;
@@ -69,6 +69,53 @@ html, body {
 }
 
 .upper-button {
+    color: #E5E7EB;
+    width: 200px;
+    height: 40px;
+    font-weight: 800;
     background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 5px;
+    border-style: solid;
 }
 
+#upper-middle {
+    height: 500px;
+    background-color: green;
+
+}
+
+.upper-middle-title {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.upper-middle-images {
+    display: flex;
+    background-color: white;
+    color: #1F2937;
+    height: 300px;
+    justify-content: center;
+    gap: 75px;
+}
+
+.image-and-quote {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: auto;
+    margin-top: 35px;
+}
+
+.middle-image {
+    height: 150px;
+    width: 200px;
+    border: 5px #3882F6 solid;
+    border-radius: 10px;
+}
